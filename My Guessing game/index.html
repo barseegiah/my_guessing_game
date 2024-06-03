@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Can you guess it?</h1>
+        <p>I am thinking of a number Between 1-100.</p>
+        <input type="number" id="guessInput" min="1" max="100" />
+        <button onclick="makeGuess()">GUESS</button>
+        <div id="message"></div>
+    </div>
+<div id="attempt">
+    <p class="attempt"></p>
+</div>
+
+    <script src="sctript.js"></script>
+</body>
+</html>
